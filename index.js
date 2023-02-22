@@ -242,6 +242,3 @@ let good1 = { name: 'jiwoon', age: 123 };
 // 익명 인터페이스
 // interface 키워드 X, 이름 X
 let ai = { name: 'jiwoon', age: 123123 };
-function printMe(me) {
-    console.log(me.etc ? `${me.name}` : );
-}

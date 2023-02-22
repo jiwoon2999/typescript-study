@@ -381,7 +381,3 @@ let ai: {
   age: number;
   etc?: boolean;
 } = { name: 'jiwoon', age: 123123 };
-
-function printMe(me: { name: string; age: number; etc?: boolean }) {
-  console.log(me.etc? `${me.name}`)
-}
